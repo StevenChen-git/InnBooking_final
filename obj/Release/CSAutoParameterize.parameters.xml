@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ReservationConnectionStringAzure-Web.config Connection String" description="ReservationConnectionStringAzure 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="Data Source=benchen.database.windows.net;Initial Catalog=Reservation;User ID=ben;Password=Hsnu1310_" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Steven\ Chen\\Desktop\\Alvin\\ASP\.NET\\Final_Project\\InnBooking_final\\InnBooking_final\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ReservationConnectionStringAzure']/@connectionString" />
+  </parameter>
+  <parameter name="ReservationConnectionStringSteven-Web.config Connection String" description="ReservationConnectionStringSteven 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="Data Source=DESKTOP-55O86IJ\SQLEXPRESS;Initial Catalog=Reservation;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Steven\ Chen\\Desktop\\Alvin\\ASP\.NET\\Final_Project\\InnBooking_final\\InnBooking_final\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ReservationConnectionStringSteven']/@connectionString" />
+  </parameter>
+  <parameter name="ReservationConnectionStringStevenAzure-Web.config Connection String" description="ReservationConnectionStringStevenAzure 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="Data Source=winterinn.database.windows.net;Initial Catalog=Reservation;Persist Security Info=True;User ID=Steven;Password=nn-16914625" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Steven\ Chen\\Desktop\\Alvin\\ASP\.NET\\Final_Project\\InnBooking_final\\InnBooking_final\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ReservationConnectionStringStevenAzure']/@connectionString" />
+  </parameter>
+</parameters>
